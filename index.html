@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
     <html lang="es">
 
         <head>
             <meta charset="utf-8" />
-            <title>Sabagu Mascotas ® </title>
+            <title id="titulo">Sabagu Mascotas ® </title>
             <meta name="author" content="Agustin Javier Castellano" />
             <meta name="description" content="Creando mi primer sitio web" />
             <meta name="keywords" content="Sabagu Mascotas, accesorios para mascotas, Sabagu, perros, accesorios para perros" />
@@ -11,13 +11,18 @@
         </head>
 
         <body>
-            <header>
+            <div id="cabecera">
+              <header>
                 <h1>Accesorios</h1>
-            </header>
+              </header>
+            </div>
+
+          <main>
 
         <time datetime="2/5/2022"></time>
 
-            <nav>
+            <div id="menu">
+              <nav>
                 <ul>
                     <li>Home</li>
                     <li>Quienes somos</li>
@@ -25,27 +30,42 @@
                     <li>Experiencias</li>
                     <li>Contacto</li>
                 </ul>
-            </nav>
+              </nav>
+            </div>
 
-            <section>
-                <article>
-                    <h1>Bienvenidos mascoteros</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, voluptatem.</p>
+            <div id="articulos">
+              <section>
+                <article id="articulo 1">
+                  <h1>Bienvenidos mascoteros</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta necessitatibus placeat.
+                    </p>
                 </article>
-
-                <article>
-                    <h1>Nuestros articulos estrellas</h1>
+                    
+                <article id="articulo 2">
+                  <h1>Nuestros articulos estrellas</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nisi delectus similique laudantium veniam
                         sint?</p>
                 </article>
             </section>
+          </div>
 
             <aside>
                 Articulos relacionados
             </aside>
-
-            <footer>
-                Esta pagina fue creada por Agustin Castellano
+            <br>
+            <br>
+          <div>
+            <form id="formulario" action="/enviar-respuesta">
+              <input type="text" placeholder="Inserte respuesta" required>
+              <button type="submit"> Enviar </button>
+            </form>
+          </div>
+            <br>
+          </main>      
+                
+            <footer id="pie">
+              Esta pagina fue creada por Agustin Castellano
             </footer>
 
         </body>
